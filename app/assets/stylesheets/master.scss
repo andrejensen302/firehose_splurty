@@ -83,3 +83,29 @@ h2 {
     font-style: italic;
     padding-top: 26px;
 }
+
+@media (max-width: 750px) {
+ .footer-blurb {
+  text-align: left;   
+ }
+}
+
+.modal {
+    font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+}
+
+h2 span {
+ color: #dddddd;
+ font-family: 'milkshakeregular', sans-serif;
+}
+
+h1 {
+    font-family: 'milkshakeregular', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+::selection {
+     background-color: #f84342;   
+}
+
